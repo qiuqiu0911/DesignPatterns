@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8b521ae-13db-4bbd-9b19-0bc6a3f5da36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitIgnore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/qiuqiu/Main.java" afterDir="false" />
+    <list default="true" id="a8b521ae-13db-4bbd-9b19-0bc6a3f5da36" name="Default Changelist" comment="git">
+      <change afterPath="$PROJECT_DIR$/src/dev/qiuqiu/SimpleFactoryPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/qiuqiu/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +28,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="dev.qiuqiu.Main" />
+      <option name="MAIN_CLASS_NAME" value="dev.qiuqiu.StrategyPattern" />
       <module name="DesignPatterns" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -43,6 +37,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580801225012</updated>
-      <workItem from="1580801229460" duration="99000" />
+      <workItem from="1580801229460" duration="1411000" />
     </task>
     <servers />
   </component>
@@ -62,9 +61,65 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="533" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1580802170562">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="533" y="145" key="#com.intellij.ide.util.MemberChooser/0.23.1440.822@0.23.1440.822" timestamp="1580802170562" />
+    <state x="303" y="31" key="CommitChangelistDialog2" timestamp="1580802834683">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1580802834683" />
+    <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.823@0.23.1440.823" timestamp="1580801339956" />
+    <state width="1398" height="259" key="GridCell.Tab.0.bottom" timestamp="1580802844322">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="259" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1580802844322" />
+    <state width="1398" height="259" key="GridCell.Tab.0.center" timestamp="1580802844321">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="259" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1580802844321" />
+    <state width="1398" height="259" key="GridCell.Tab.0.left" timestamp="1580802844321">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="259" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1580802844321" />
+    <state width="1398" height="259" key="GridCell.Tab.0.right" timestamp="1580802844322">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="259" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1580802844322" />
+    <state width="1398" height="259" key="GridCell.Tab.1.bottom" timestamp="1580802844174">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="259" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1580802844174" />
+    <state width="1398" height="259" key="GridCell.Tab.1.center" timestamp="1580802844173">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="259" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1580802844173" />
+    <state width="1398" height="259" key="GridCell.Tab.1.left" timestamp="1580802844173">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="259" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1580802844173" />
+    <state width="1398" height="259" key="GridCell.Tab.1.right" timestamp="1580802844173">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="259" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1580802844173" />
     <state x="397" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1580801232013">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="397" y="261" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1580801232013" />
+    <state x="385" y="169" width="670" height="676" key="search.everywhere.popup" timestamp="1580802734908">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="385" y="169" width="670" height="676" key="search.everywhere.popup/0.23.1440.822@0.23.1440.822" timestamp="1580802734908" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dev/qiuqiu/SimpleFactoryPattern.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
